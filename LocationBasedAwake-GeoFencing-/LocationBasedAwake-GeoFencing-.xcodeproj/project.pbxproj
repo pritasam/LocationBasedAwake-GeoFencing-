@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C1EB2B19A324520069C3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1EB2A19A324520069C3A8 /* AppDelegate.swift */; };
+		88C1EB2D19A324520069C3A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1EB2C19A324520069C3A8 /* ViewController.swift */; };
+		88C1EB3019A324520069C3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C1EB2E19A324520069C3A8 /* Main.storyboard */; };
+		88C1EB3219A324520069C3A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1EB3119A324520069C3A8 /* Images.xcassets */; };
+		88C1EB3E19A324520069C3A8 /* LocationBasedAwake_GeoFencing_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1EB3D19A324520069C3A8 /* LocationBasedAwake_GeoFencing_Tests.swift */; };
+		88C1EB4819A325B30069C3A8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C1EB4719A325B30069C3A8 /* libz.dylib */; };
+		88C1EB4A19A325C10069C3A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C1EB4919A325C10069C3A8 /* MapKit.framework */; };
+		88C1EB5019A3260D0069C3A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C1EB4C19A325FB0069C3A8 /* CoreGraphics.framework */; };
+		88C1EB5119A3260D0069C3A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C1EB4D19A325FB0069C3A8 /* CoreLocation.framework */; };
+		88C1EB5419A3262B0069C3A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C1EB5219A3261E0069C3A8 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88C1EB3819A324520069C3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C1EB1D19A324520069C3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C1EB2419A324520069C3A8;
+			remoteInfo = "LocationBasedAwake-GeoFencing-";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88C1EB2519A324520069C3A8 /* LocationBasedAwake-GeoFencing-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LocationBasedAwake-GeoFencing-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C1EB2919A324520069C3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C1EB2A19A324520069C3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88C1EB2C19A324520069C3A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88C1EB2F19A324520069C3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C1EB3119A324520069C3A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88C1EB3719A324520069C3A8 /* LocationBasedAwake-GeoFencing-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocationBasedAwake-GeoFencing-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C1EB3C19A324520069C3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C1EB3D19A324520069C3A8 /* LocationBasedAwake_GeoFencing_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBasedAwake_GeoFencing_Tests.swift; sourceTree = "<group>"; };
+		88C1EB4719A325B30069C3A8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		88C1EB4919A325C10069C3A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		88C1EB4C19A325FB0069C3A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88C1EB4D19A325FB0069C3A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		88C1EB5219A3261E0069C3A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C1EB2219A324520069C3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1EB5419A3262B0069C3A8 /* QuartzCore.framework in Frameworks */,
+				88C1EB4A19A325C10069C3A8 /* MapKit.framework in Frameworks */,
+				88C1EB4819A325B30069C3A8 /* libz.dylib in Frameworks */,
+				88C1EB5019A3260D0069C3A8 /* CoreGraphics.framework in Frameworks */,
+				88C1EB5119A3260D0069C3A8 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1EB3419A324520069C3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C1EB1C19A324520069C3A8 = {
+			isa = PBXGroup;
+			children = (
+				88C1EB2719A324520069C3A8 /* LocationBasedAwake-GeoFencing- */,
+				88C1EB3A19A324520069C3A8 /* LocationBasedAwake-GeoFencing-Tests */,
+				88C1EB2619A324520069C3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C1EB2619A324520069C3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C1EB2519A324520069C3A8 /* LocationBasedAwake-GeoFencing-.app */,
+				88C1EB3719A324520069C3A8 /* LocationBasedAwake-GeoFencing-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C1EB2719A324520069C3A8 /* LocationBasedAwake-GeoFencing- */ = {
+			isa = PBXGroup;
+			children = (
+				88C1EB2A19A324520069C3A8 /* AppDelegate.swift */,
+				88C1EB2C19A324520069C3A8 /* ViewController.swift */,
+				88C1EB2E19A324520069C3A8 /* Main.storyboard */,
+				88C1EB3119A324520069C3A8 /* Images.xcassets */,
+				88C1EB2819A324520069C3A8 /* Supporting Files */,
+			);
+			path = "LocationBasedAwake-GeoFencing-";
+			sourceTree = "<group>";
+		};
+		88C1EB2819A324520069C3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C1EB4B19A325CE0069C3A8 /* Frameworks */,
+				88C1EB2919A324520069C3A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88C1EB3A19A324520069C3A8 /* LocationBasedAwake-GeoFencing-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88C1EB3D19A324520069C3A8 /* LocationBasedAwake_GeoFencing_Tests.swift */,
+				88C1EB3B19A324520069C3A8 /* Supporting Files */,
+			);
+			path = "LocationBasedAwake-GeoFencing-Tests";
+			sourceTree = "<group>";
+		};
+		88C1EB3B19A324520069C3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C1EB3C19A324520069C3A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88C1EB4B19A325CE0069C3A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C1EB5219A3261E0069C3A8 /* QuartzCore.framework */,
+				88C1EB4C19A325FB0069C3A8 /* CoreGraphics.framework */,
+				88C1EB4D19A325FB0069C3A8 /* CoreLocation.framework */,
+				88C1EB4919A325C10069C3A8 /* MapKit.framework */,
+				88C1EB4719A325B30069C3A8 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C1EB2419A324520069C3A8 /* LocationBasedAwake-GeoFencing- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C1EB4119A324520069C3A8 /* Build configuration list for PBXNativeTarget "LocationBasedAwake-GeoFencing-" */;
+			buildPhases = (
+				88C1EB2119A324520069C3A8 /* Sources */,
+				88C1EB2219A324520069C3A8 /* Frameworks */,
+				88C1EB2319A324520069C3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocationBasedAwake-GeoFencing-";
+			productName = "LocationBasedAwake-GeoFencing-";
+			productReference = 88C1EB2519A324520069C3A8 /* LocationBasedAwake-GeoFencing-.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88C1EB3619A324520069C3A8 /* LocationBasedAwake-GeoFencing-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C1EB4419A324520069C3A8 /* Build configuration list for PBXNativeTarget "LocationBasedAwake-GeoFencing-Tests" */;
+			buildPhases = (
+				88C1EB3319A324520069C3A8 /* Sources */,
+				88C1EB3419A324520069C3A8 /* Frameworks */,
+				88C1EB3519A324520069C3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C1EB3919A324520069C3A8 /* PBXTargetDependency */,
+			);
+			name = "LocationBasedAwake-GeoFencing-Tests";
+			productName = "LocationBasedAwake-GeoFencing-Tests";
+			productReference = 88C1EB3719A324520069C3A8 /* LocationBasedAwake-GeoFencing-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C1EB1D19A324520069C3A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Pritam;
+				TargetAttributes = {
+					88C1EB2419A324520069C3A8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					88C1EB3619A324520069C3A8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 88C1EB2419A324520069C3A8;
+					};
+				};
+			};
+			buildConfigurationList = 88C1EB2019A324520069C3A8 /* Build configuration list for PBXProject "LocationBasedAwake-GeoFencing-" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C1EB1C19A324520069C3A8;
+			productRefGroup = 88C1EB2619A324520069C3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C1EB2419A324520069C3A8 /* LocationBasedAwake-GeoFencing- */,
+				88C1EB3619A324520069C3A8 /* LocationBasedAwake-GeoFencing-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C1EB2319A324520069C3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1EB3019A324520069C3A8 /* Main.storyboard in Resources */,
+				88C1EB3219A324520069C3A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1EB3519A324520069C3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C1EB2119A324520069C3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1EB2D19A324520069C3A8 /* ViewController.swift in Sources */,
+				88C1EB2B19A324520069C3A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1EB3319A324520069C3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1EB3E19A324520069C3A8 /* LocationBasedAwake_GeoFencing_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88C1EB3919A324520069C3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C1EB2419A324520069C3A8 /* LocationBasedAwake-GeoFencing- */;
+			targetProxy = 88C1EB3819A324520069C3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88C1EB2E19A324520069C3A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C1EB2F19A324520069C3A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C1EB3F19A324520069C3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C1EB4019A324520069C3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C1EB4219A324520069C3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "LocationBasedAwake-GeoFencing-/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88C1EB4319A324520069C3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "LocationBasedAwake-GeoFencing-/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88C1EB4519A324520069C3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocationBasedAwake-GeoFencing-.app/LocationBasedAwake-GeoFencing-";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LocationBasedAwake-GeoFencing-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		88C1EB4619A324520069C3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocationBasedAwake-GeoFencing-.app/LocationBasedAwake-GeoFencing-";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LocationBasedAwake-GeoFencing-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C1EB2019A324520069C3A8 /* Build configuration list for PBXProject "LocationBasedAwake-GeoFencing-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1EB3F19A324520069C3A8 /* Debug */,
+				88C1EB4019A324520069C3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C1EB4119A324520069C3A8 /* Build configuration list for PBXNativeTarget "LocationBasedAwake-GeoFencing-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1EB4219A324520069C3A8 /* Debug */,
+				88C1EB4319A324520069C3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88C1EB4419A324520069C3A8 /* Build configuration list for PBXNativeTarget "LocationBasedAwake-GeoFencing-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1EB4519A324520069C3A8 /* Debug */,
+				88C1EB4619A324520069C3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C1EB1D19A324520069C3A8 /* Project object */;
+}
