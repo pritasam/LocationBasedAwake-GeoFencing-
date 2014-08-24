@@ -39,7 +39,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
         self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         var  version:NSString  = UIDevice.currentDevice().systemVersion
         let ver_float  = version.floatValue
-        if (ver_float >= 5.0)
+        if (ver_float >= 8.0)
         {
              self.locationManager.requestAlwaysAuthorization()
         }
